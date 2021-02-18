@@ -100,12 +100,21 @@ body {
 }
 .t-body > p {
    font-size: 9px;
+   padding-top: 3px;
    color: hsla(210, 46%, 95%, 0.7);
 }
 
 @media only screen and (max-width: 500px) {
    #main {
-      grid-template-columns: auto;
+      padding: 20px;
+      margin-left: 0;
+      display: block;
+      margin-top: 600px;
+      position: relative;
+   }
+   #main > div {
+      width: 100%;
+      margin-top: 20px;
    }
 }
 
